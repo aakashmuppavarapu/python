@@ -27,7 +27,7 @@ age_in_days = age * days_in_a_year
 
 print(f"age in days:", age_in_days)
 
-# 10.Write a program to find the simple interest.
+# 10.a.Write a program to find the simple interest.
 
 principal = int(input("enter principal:"))
 tenure = int(input("enter tenure:"))
@@ -46,7 +46,7 @@ if interest_rate > 1:
 
 print(f"simple interest:", (simple_interest))
 
-# 11.Write a program to find the compound interest.
+# 10.b.Write a program to find the compound interest.
 
 principal = int(input("enter principal:"))
 interest_rate = float(input("enter interest rate:"))

@@ -1,8 +1,8 @@
-#Write a program to add and subtract two numbers.
-#Write a program to multiply and divide two numbers.
-#Write a program to find the square and cube of a given number.
-#Write a program to find the square root of a given number.
-#Write a program to find the area and perimeter of a square.
+# 1.Write a program to add and subtract two numbers.
+# 2.Write a program to multiply and divide two numbers.
+# 3.Write a program to find the square and cube of a given number.
+# 4.Write a program to find the square root of a given number.
+# 5.Write a program to find the area and perimeter of a square.
 
 
 a = int(input("enter a:"))

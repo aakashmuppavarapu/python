@@ -9,7 +9,7 @@ print(f"D.A:", DA)
 print(f"H.R.A:", HRA)
 print(f"gross salary:", gross_salary)
 
-# The distance between two cities in Km. is input through the keyboard. Write a program to convert and print the result in meters and centimeteres.
+# 18. The distance between two cities in Km. is input through the keyboard. Write a program to convert and print the result in meters and centimeteres.
 
 
 distance_between_two_cities = int(input("enter distance in km:"))
@@ -20,7 +20,7 @@ centimeters = distance_between_two_cities / 0.0000100
 print(f"meters:", meters)
 print(f"centimeters:", round(centimeters, 2))
 
-# Write a program which accepts the amount in dollars and convert into rupees.
+# 19. Write a program which accepts the amount in dollars and convert into rupees.
 
 amount_in_dollars = int(input("enter amount in dollars:"))
 
@@ -28,13 +28,13 @@ inr = 76.72 * amount_in_dollars
 
 print(f"amount in rupee:", inr)
 
-#Write a program to read your address and print it.
+# 20. Write a program to read your address and print it.
 
 address = str("flat : 203; mig : 532, 533; road no : 1; kphb colony; hyderabad; telangana; 500072.")
 
 print(f"address:", address)
 
-# Write a program to print the area of a triangle if b and h values are given.
+# 21. Write a program to print the area of a triangle if b and h values are given.
 
 b = int(input("enter base:"))
 h = int(input("enter height:"))
@@ -43,7 +43,7 @@ area_of_triangle = 1 / 2 * (b * h)
 
 print(f"area of triangle:", area_of_triangle)
 
-# Write a program to print the area of a triangle if three sides are given.
+# 22. Write a program to print the area of a triangle if three sides are given.
 
 a = int(input("enter_first_side:"))
 b = int(input("enter_second_side:"))

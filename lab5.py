@@ -19,7 +19,10 @@ number = "positive or negitive"
 if a > 0:
     number = "positive"
     
-if a < 0:
+elif a == 0:
+    number = "neutral"
+    
+else: 
     number = "negitive"
     
 print(f"number is", number)

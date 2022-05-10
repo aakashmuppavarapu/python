@@ -5,13 +5,13 @@ b = int(input("enter second number:"))
 c = int(input("enter third number:"))
 
 if a > b:
-    print("biggest number is {a}")
+    print(f"biggest number is {a}")
 
 elif b > c:
-    print("biggest number is {b}")
+    print(f"biggest number is {b}")
 
 else:
-    print("biggest number is {c}")
+    print(f"biggest number is {c}")
 
 # 28. Write a program to check whether the given year is leap year or not.
 
@@ -38,8 +38,8 @@ if d == 0:
     print("roots are real and equal:", (root1, root2))
     
 elif d > 0:
-    root1 = (-b + (d) ** 0.5) / (2 * a)
-    root2 = (-b - (d) ** 0.5) / (2 * a)
+    root1 = (-b + (d ** 0.5)) / (2 * a)
+    root2 = (-b - (d ** 0.5)) / (2 * a)
     print("roots are reaal and unequal:", (root1, root2))
     
 elif d < 0:

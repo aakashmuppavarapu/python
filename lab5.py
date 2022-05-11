@@ -36,7 +36,7 @@ number = "odd or even"
 if a % 2 == 0:
     number = "even"
     
-if a % 2 != 0:
+else:
     number = "odd"
     
 print(f"number is", number)
